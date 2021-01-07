@@ -2,6 +2,10 @@
 
 This repository contains code that creates wordclouds and LDA analysis based on twitter messages.
 
+Miles Porter  
+January 7, 2021  
+
+
 Requirements:
 
 Python 3.7 with the following pip packages installed:
