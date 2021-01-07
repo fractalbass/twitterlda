@@ -1,4 +1,0 @@
-export api_key=l2f4MF0RYKhVA9U1Xcbn5DuzR;
-export api_secret=5LAuQWVudcxFwqTfr7JdiTkXJw96CKeDaNWHt9ATUmvhS1JIEx;
-export access_token=19119569-asdxnI9BmMeLt6s3qWaGhU9gJcA6L72JDgLX2YLTq;
-export access_secret=kBLimmh9XsajQBssEk5bumtJFRSvCa7uY27bFowbZaKr9;
