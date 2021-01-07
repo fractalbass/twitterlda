@@ -50,8 +50,20 @@ analysis of the loaded data.
 
 ## Example 2.
 
-To download new data, twitter api_key, api_secred, access_token and access_secret must be included in the keys.json file
-in the model root directory.  Please see tweepy.org for information on how to set these values up.  Twitter does provide
+To download new data, twitter api_key, api_secred, access_token and access_secret must be set as environment variables.
+
+The following outline of a shell script (set_env.sh) can be used to configure these variables (in mac/linux):
+
+<pre>
+# Note run this file like so:
+# . ./set_env.sh
+export api_key=l2f4MF0RYKhVA9U1Xcbn5DuzR;
+export api_secret=5LAuQWVudcxFwqTfr7JdiTkXJw96CKeDaNWHt9ATUmvhS1JIEx;
+export access_token=19119569-asdxnI9BmMeLt6s3qWaGhU9gJcA6L72JDgLX2YLTq;
+export access_secret=kBLimmh9XsajQBssEk5bumtJFRSvCa7uY27bFowbZaKr9;
+</pre>  
+  
+Please see tweepy.org for information on how to set these values up.  Twitter does provide
 free developer accounts, however note that the accounts are rate limited.  The code accounts for these rate limits, 
 however, it may take some time to download more than a few thousand tweets.  The following command can be used to 
 download 1000 tweets for WilliamShatner:

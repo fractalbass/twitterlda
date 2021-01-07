@@ -35,10 +35,10 @@ class TwitterHelper:
             print("Failed to load data.  Do you have a your twitter api_key, api_secret, access_token and access_secret set as environment variables?")
             exit(1)
         else:
-            print(self.consumer_key)
-            print(self.consumer_secret)
-            print(self.access_key)
-            print(self.access_secret)
+            #print(self.consumer_key)
+            #print(self.consumer_secret)
+            #print(self.access_key)
+            #print(self.access_secret)
             print("Twitter access info read from environment variables.")
 
     def get_all_tweets(self, screen_name, n=1000):
