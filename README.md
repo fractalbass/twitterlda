@@ -23,7 +23,7 @@ This can can be run with our without connectivity to twitter.  If you wish to do
 configure the keys.json file with the correct information based on your twitter developer account.  More information can 
 be found at http://www.tweepy.org.  
 
-Running the application.  
+# Running the script  
 
 ## Example 1.  Downloading and displaying tweets.
 
